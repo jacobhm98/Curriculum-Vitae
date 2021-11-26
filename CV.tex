@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (September 10, 2021)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Stefano (https://www.kindoblue.nl)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage{scrlayer-scrpage} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{microtype} % To enable letterspacing
+\usepackage{hyperref}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+%	FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\fontsize{12.5}{17}\selectfont % Letter spacing and font size
+
+\textls[150]{Atterbomsvägen 38 {\large\textperiodcentered} Stockholm {\large\textperiodcentered} Sweden}\\ % Your mailing address
+{\Large\Letter} \textls[150]{jacmalm@kth.se \ {\Large\Telefon} +46704470270} % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+%	HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\fontsize{36}{36}\selectfont\scshape\textls[200]{Jacob Hedén Malm}} % Your name at the top
+
+\vspace{1.5cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\section{Background}
+
+A curious, competent, and driven computer scientist with a strong international background and \\ a passion for acquiring new skills.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Practical Experience}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{June 2020 --- August 2021}\\
+\gray Employer & \textbf{INVIDI Technologies AB} \hfill Stockholm, Sweden\\
+\gray Job Title & \textbf{Backend Engineer}\\
+\gray Languages & \textbf{Java}\\
+       & I worked as a Backend Engineer at a medium sized advertising technology company. My role included developing and maintaining the microservices that made up the INVIDI software product. Due to the size of the company, I also got experience with Dev Ops and QA work.I came into contact with a wide range of technologies, such as GCP, maven, kubernetes, docker, sql, and datadog.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{July 2020 --- Present}\\
+\gray Company & \textbf{Sensoris IT AB} \hfill Stockholm\\
+\gray Job Title & \textbf{Co-Founder}\\
+       & I, along with a group of friends from my studies at KTH, developed Busybee, an occupancy management and analysis software product. We were admitted into the KTH Innovation pre-incubator program and were a part of batch 12. The start-up experience meant that we all had to wear a lot of different hats and solve many different problems creatively. Busybee is currently live on \href{busybee.se}{busybee.se}.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{March 2020 --- June 2020}\\
+\gray Company & \textbf{IchigoIchie AB, Royal Institute of Technology} \hfill Stockholm\\
+\gray Job Title & \textbf{Bachelor Thesis Intern}\\
+       & When wrapping up my bachelor's degree studies I executed a thesis project in conjunction with IchigoIchie AB, an audio-visual games producer. The aim of this project was to build machine learning tools capable of classifying sound snippets by their emotional tone. This was accomplished by representing the sound snippets as spectrograms and classifying these spectrograms with the help of a convolutional neural network.
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{September 2021 --- Present}\\
+\gray Degree & \textbf{Master of Science in Machine Learning}\\
+\gray University & \textbf{Royal Institute of Technology} \hfill Stockholm, Sweden\\
+& I am currently pursuing specialized degree in Machine Learning. My main interest areas are probabilistical methods and neural networks.
+\end{tabularx}
+
+\vspace{12pt}
+
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{Septemer 2017 ---  June 2020}\\
+\gray Degree & \textbf{Bachelor of Science in Computer Science}\\
+\gray University & \textbf{Royal Institute of Technology} \hfill Stockholm, Sweden\\
+& A broad degree in computer science, laying a solid foundation within the field. My main interest areas were studies of algorithms and their properties, and mathematics.
+\end{tabularx}
+
+\end{center}
+
+\end{document}
