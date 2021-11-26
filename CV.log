@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.8)  26 NOV 2021 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.8)  26 NOV 2021 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,8 +542,7 @@ ef
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count268
 \l__pdf_internal_box=\box52
-)
-No file CV.aux.
+) (./CV.aux)
 \openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -567,6 +566,7 @@ LaTeX Font Info:    ... okay on input line 52.
 Package scrbase Info: activating english \contentsname on input line 52.
 Package scrbase Info: activating english \listfigurename on input line 52.
 Package scrbase Info: activating english \listtablename on input line 52.
+
 (/usr/local/texlive/2021basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count269
@@ -615,6 +615,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
+ (./CV.out) (./CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
 
@@ -703,14 +704,14 @@ Package microtype Info: Character `013' is missing
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <12.5> not ava
 ilable
 (Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
- input line 127.
+ input line 131.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 12.5pt on input line 127.
+(Font)              scaled to size 12.5pt on input line 131.
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/EBGaramond-OsF/regular/sc/12.5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
-nput line 127.
+nput line 131.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF
 .fd
@@ -720,14 +721,14 @@ amond-OsF.
 
 LaTeX Font Warning: Font shape `TS1/EBGaramond-OsF/m/sc' undefined
 (Font)              using `TS1/EBGaramond-OsF/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 127.
+(Font)              for symbol `textperiodcentered' on input line 131.
 
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <12> not availa
 ble
 (Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
-input line 127.
+input line 131.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
+(Font)              scaled to size 12.0pt on input line 131.
 Missing character: There is no m in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no i in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no n in font EBGaramond-Regular-osf-ts1!
@@ -739,9 +740,9 @@ Missing character: There is no t in font EBGaramond-Regular-osf-ts1!
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/sc' in size <12> not avail
 able
 (Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
-input line 127.
+input line 131.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
+(Font)              scaled to size 12.0pt on input line 131.
 Missing character: There is no m in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no i in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no n in font EBGaramond-Regular-osf-ts1!
@@ -750,35 +751,35 @@ Missing character: There is no s in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no 0 in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no p in font EBGaramond-Regular-osf-ts1!
 Missing character: There is no t in font EBGaramond-Regular-osf-ts1!
-LaTeX Font Info:    Calculating math sizes for size <12.5> on input line 127.
+LaTeX Font Info:    Calculating math sizes for size <12.5> on input line 131.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 127.
+(Font)              size <12> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.5> not available
-(Font)              size <12> substituted on input line 127.
+(Font)              size <12> substituted on input line 131.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.5> not available
-(Font)              size <12> substituted on input line 127.
+(Font)              size <12> substituted on input line 131.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.5> on input line 127.
+(Font)              <12.5> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.74995> on input line 127.
+(Font)              <8.74995> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.25> on input line 127.
+(Font)              <6.25> on input line 131.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <14.4> not ava
 ilable
 (Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
- input line 127.
+ input line 131.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 127.
+(Font)              scaled to size 14.4pt on input line 131.
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/EBGaramond-OsF/regular/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 127
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 131
 .
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/microtype/mt-mvs.cfg
@@ -792,20 +793,24 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting typearea's option
 (scrlayer-scrpage)                `footheight=48.62001pt'.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 12
-7.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 13
+1.
 
 [1
 
 {/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (19.2501pt too wide) in paragraph at lines 133--139
+ [] 
+ []
+
 [2]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     129.
+(LaTeX3)     142.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     129.
+(LaTeX3)     142.
 
  (./CV.aux)
 
@@ -815,23 +820,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `CV.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15226 strings out of 480445
- 291749 string characters out of 5892391
- 769627 words of memory out of 5000000
- 32211 multiletter control sequences out of 15000+600000
+ 15234 strings out of 480445
+ 291805 string characters out of 5892391
+ 770466 words of memory out of 5000000
+ 32212 multiletter control sequences out of 15000+600000
  428614 words of font info for 122 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 111i,19n,116p,10597b,764s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,19n,116p,10597b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6d
 f2.enc}{/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm
 _fc2mbn.enc}{/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/ebgaramond
@@ -839,10 +838,10 @@ _fc2mbn.enc}{/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/ebgaramond
 garamond/EBGaramond-Bold.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/typ
 e1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/texlive/2021basic/texmf
 -dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (2 pages, 221380 bytes).
+Output written on CV.pdf (2 pages, 224146 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 49177 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 49185 words of extra memory for PDF output out of 51595 (max. 10000000)
 
